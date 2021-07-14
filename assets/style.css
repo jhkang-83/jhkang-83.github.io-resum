@@ -140,7 +140,7 @@ img {
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow:1;
-  width: 50%;	
+  width: 50%;
 }
 
 .column:first-child {
@@ -154,6 +154,7 @@ img {
 
 .col_content {
 	padding-bottom: 10px;
+	width: 70%;
 }
 
 .col_info {
@@ -161,6 +162,7 @@ img {
 	padding-top: 0px;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
+	width: 30%;
 }
 
 .contact {
@@ -407,7 +409,10 @@ span {
 	text-align: left;
 	vertical-align: top;
 }
-
+.desc {
+	margin-left: 10px;
+	font-size: 15px;
+}
 .code, code {
 	background: rgba(135, 131, 120, 0.15);
 	border-radius: 3px;
